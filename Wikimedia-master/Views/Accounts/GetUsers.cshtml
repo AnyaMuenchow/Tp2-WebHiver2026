@@ -27,21 +27,21 @@
         string promoteTitle = item.Access == Models.Access.Admin ? "Retirer les droits Administrateur de " : "Donner les droits Administrateur à ";
         <div class="UserPanel" style="display: flex; align-items: center; margin: 8px; font-size: 14px; gap:12px">
             <div style="display:grid; grid-template-columns:40px auto;align-items:center; gap:8px; cursor:default; width:200px">
-                @*@Helper.Image(item.Avatar, "UserSmallAvatar")*@
+                @Helper.Image(item.Avatar, "UserSmallAvatar")
                 <span title="@item.Email">@item.Name</span>
             </div>
             <div class="blockCmd icon" style="text-align:center" userId="@item.Id" title="@(item.Blocked ? "Débloquer " : "Bloquer") le compte de l'usager @item.Name">
-                @*@Helper.Image(@statusIcon, "UserXSmallAvatar")*@
+                @Helper.Image(@statusIcon, "UserXSmallAvatar")
             </div>
 
             <div class="setUserAccessCmd icon @selectViewAccess" userId="@item.Id" title="Réduire les droits en lecture seule à l'usager @item.Name" access="@((int)Models.Access.View)">
-                @*@Helper.Image(ViewAccessIcon, "UserXSmallAvatar")*@
+                @Helper.Image(ViewAccessIcon, "UserXSmallAvatar")
             </div>
             <div class="setUserAccessCmd icon @selectWriteAccess" userId="@item.Id" title="Donnez les droits en lecture/écriture à l'usager  @item.Name" access="@((int)Models.Access.Write)">
-                @*@Helper.Image(WriteAccessIcon, "UserXSmallAvatar")*@
+                @Helper.Image(WriteAccessIcon, "UserXSmallAvatar")
             </div>
             <div class="setUserAccessCmd icon @selectAdminAccess" userId="@item.Id" title="Donnez les droits administrateur à l'usager  @item.Name" access="@((int)Models.Access.Admin)">
-                @*@Helper.Image(AdminAccessIcon, "UserXSmallAvatar")*@
+                @Helper.Image(AdminAccessIcon, "UserXSmallAvatar")
             </div>
 
 
