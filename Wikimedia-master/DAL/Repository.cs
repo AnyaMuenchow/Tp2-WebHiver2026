@@ -141,6 +141,10 @@ namespace DAL
                 return false;
             }
         }
+        public bool IsMarkedChanged
+        {
+            get { return ((string)HttpContext.Current.Session[this.GetType().Name] != _SerialNumber); }
+        }
         public void BeginTransaction()
         {
             if (!TransactionOnGoing) // todo check if nested transactions still work
