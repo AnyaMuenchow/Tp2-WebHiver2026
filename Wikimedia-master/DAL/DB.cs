@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web.Hosting;
 using EmailHandling;
+using System.ComponentModel.DataAnnotations.Schema;
 using Models;
 using PhotosManager.Models;
 
