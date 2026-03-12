@@ -11,6 +11,17 @@
     "Id": 1
   },
   {
+    "Name": "Modérateur2",
+    "Email": "admin@app.net",
+    "Password": "RUSkNxy4OXb7L/x3mBTmTVCKtfggixBxOGfn+e85E8w=vhGf2wy7+eP2Z7q+rKdXqL7oM7o=",
+    "Access": 3,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 2
+  },
+  {
     "Name": "Charlot",
     "Email": "charlot@yopmail.com",
     "Password": "UGvBH44r9jymjXTdgIoFV48oPq+n5dXg9UrySBZS6AY=1OTFoM+oWnARJg7/eeW9cTAMNkc=",
@@ -19,7 +30,7 @@
     "Verified": true,
     "Notify": true,
     "Avatar": "/App_Assets/Users/no_avatar.png",
-    "Id": 2
+    "Id": 3
   },
   {
     "Name": "Anya",
@@ -30,7 +41,7 @@
     "Verified": true,
     "Notify": true,
     "Avatar": "/App_Assets/Users/no_avatar.png",
-    "Id": 3
+    "Id": 4
   },
   {
     "Name": "Alt",
@@ -41,6 +52,6 @@
     "Verified": true,
     "Notify": true,
     "Avatar": "/App_Assets/Users/no_avatar.png",
-    "Id": 4
+    "Id": 5
   }
 ]
