@@ -1,1 +1,46 @@
-[{"Name":"Modérateur","Email":"admin@app.net","Password":"RUSkNxy4OXb7L/x3mBTmTVCKtfggixBxOGfn+e85E8w=vhGf2wy7+eP2Z7q+rKdXqL7oM7o=","Access":3,"Blocked":false,"Verified":true,"Notify":true,"Avatar":"/App_Assets/Users/no_avatar.png","Id":1},{"Name":"Charlot","Email":"charlot@yopmail.com","Password":"UGvBH44r9jymjXTdgIoFV48oPq+n5dXg9UrySBZS6AY=1OTFoM+oWnARJg7/eeW9cTAMNkc=","Access":1,"Blocked":false,"Verified":true,"Notify":true,"Avatar":"/App_Assets/Users/no_avatar.png","Id":2},{"Name":"Anya","Email":"anya.muenchow@gmail.com","Password":"qPg6HpH4U6J4zPJe0ShmgNqcj4DDJbB6QFSlZ8+sm3k=StZlCnkVTm7lEz2ssczhyez3TZg=","Access":2,"Blocked":false,"Verified":true,"Notify":true,"Avatar":"/App_Assets/Users/no_avatar.png","Id":3},{"Name":"Alt","Email":"202431027.clg@gmail.com","Password":"qPg6HpH4U6J4zPJe0ShmgNqcj4DDJbB6QFSlZ8+sm3k=StZlCnkVTm7lEz2ssczhyez3TZg=","Access":2,"Blocked":false,"Verified":true,"Notify":true,"Avatar":"/App_Assets/Users/no_avatar.png","Id":4}]
+[
+  {
+    "Name": "Modérateur",
+    "Email": "master@app.net",
+    "Password": "RUSkNxy4OXb7L/x3mBTmTVCKtfggixBxOGfn+e85E8w=vhGf2wy7+eP2Z7q+rKdXqL7oM7o=",
+    "Access": 3,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 1
+  },
+  {
+    "Name": "Charlot",
+    "Email": "charlot@yopmail.com",
+    "Password": "UGvBH44r9jymjXTdgIoFV48oPq+n5dXg9UrySBZS6AY=1OTFoM+oWnARJg7/eeW9cTAMNkc=",
+    "Access": 1,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 2
+  },
+  {
+    "Name": "Anya",
+    "Email": "anya.muenchow@gmail.com",
+    "Password": "qPg6HpH4U6J4zPJe0ShmgNqcj4DDJbB6QFSlZ8+sm3k=StZlCnkVTm7lEz2ssczhyez3TZg=",
+    "Access": 2,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 3
+  },
+  {
+    "Name": "Alt",
+    "Email": "202431027.clg@gmail.com",
+    "Password": "qPg6HpH4U6J4zPJe0ShmgNqcj4DDJbB6QFSlZ8+sm3k=StZlCnkVTm7lEz2ssczhyez3TZg=",
+    "Access": 2,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 4
+  }
+]
